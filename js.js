@@ -21,9 +21,9 @@ function vldText() {
     const validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
     const text = document.getElementById('textInput').value;
     if (validation.test(text)) {
-        alert("Special characters are not allowed!");
+        alert("no special characters allowed!");
     } else {
-        alert("Text is valid.");
+        alert("Text is valid");
     }
 }
 
